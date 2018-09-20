@@ -12,8 +12,8 @@ random error: mean = 7.371, std = 1.765  #randomly choose 2 sequences from train
 
 predict error: mean = 3.796, std = 1.260
 
-P = 
-
+stats.ttest_ind(predict_error,random_error,equal_var=False)
+Ttest_indResult(statistic=-57.15380896418932, pvalue=0.0)
 
 # gaussian process
 
