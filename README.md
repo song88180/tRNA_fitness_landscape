@@ -8,12 +8,14 @@ Jianzhi Zhang lab project
 
 # Decoder Accuracy
 
-random error: mean = 7.371, std = 1.765, sample_size = 1000  #randomly choose 2 sequences from training set, calculate the average number of mismatch.
-
-predict error: mean = 3.796, std = 1.260, sample_size = 2000
-
-stats.ttest_ind(predict_error,random_error,equal_var=False)
+random error: mean = 7.371, std = 1.765, sample_size = 1000  #randomly choose 2 sequences from training set, calculate the average number of mismatch.<br>
+predict error: mean = 3.796, std = 1.260, sample_size = 2000 <br>
 Ttest_indResult(statistic=-57.15380896418932, pvalue=0.0)
+<br><br>
+
+predict error for good sequences: mean = 3.501, std = 1.170, sample_size = 1000 <br>
+predict error for bad sequences: mean = 4.091, std = 1.277, sample_size = 1000 <br>
+Ttest_indResult(statistic=-10.76520151991619, pvalue=2.638240089929478e-26)
 
 # gaussian process
 
