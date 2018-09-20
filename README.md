@@ -6,6 +6,14 @@ Jianzhi Zhang lab project
 
 1000 good sequences + 1000 bad sequences mapped to 10d latent space
 
+# Decoder Accuracy
+
+random error: mean = 7.371, std = 1.765  #randomly choose 2 sequences from training set, calculate the average number of mismatch.
+
+predict error: mean = 3.796, std = 1.260
+
+P = 
+
 
 # gaussian process
 
