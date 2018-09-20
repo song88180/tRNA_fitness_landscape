@@ -8,9 +8,9 @@ Jianzhi Zhang lab project
 
 # Decoder Accuracy
 
-random error: mean = 7.371, std = 1.765  #randomly choose 2 sequences from training set, calculate the average number of mismatch.
+random error: mean = 7.371, std = 1.765, sample_size = 1000  #randomly choose 2 sequences from training set, calculate the average number of mismatch.
 
-predict error: mean = 3.796, std = 1.260
+predict error: mean = 3.796, std = 1.260, sample_size = 2000
 
 stats.ttest_ind(predict_error,random_error,equal_var=False)
 Ttest_indResult(statistic=-57.15380896418932, pvalue=0.0)
