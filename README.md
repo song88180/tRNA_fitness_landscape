@@ -7,7 +7,36 @@ Jianzhi Zhang lab project
 1000 good sequences + 1000 bad sequences mapped to 10d latent space
 
 
-# ??
+# gaussian process
+
+size_z = 10, 1000 good (training set) + 1000 bad:
+
+mean 10-fold cross validation PCC: 0.747
+
+PCC_train: 0.824, PCC_test: 0.670
+
+MAD_train: 0.1, MAD_test: 0.1
+
+
+size_z = 10, 2000 good in training set:
+
+mean 10-fold cross validation PCC: 0.572
+
+PCC_train: 0.653, PCC_test: 0.467
+
+MAD_train: 0.1, MAD_test: 0.1
+
+
+size_z = 2, 1000 good in test set:
+
+mean 10-fold cross validation PCC: 0.575
+
+PCC_train: 0.691, PCC_test: 0.502
+
+MAD_train: 0.1, MAD_test: 0.1
+
+
+
 
 | mutation num             | 1      | 2      | 3      | 4      | 5      | 6      | 7      | 8     | 9     |
 |--------------------------|--------|--------|--------|--------|--------|--------|--------|-------|-------|
@@ -16,5 +45,6 @@ Jianzhi Zhang lab project
 | good ratio (fitness>270) | 0.0231 | 0.0390 | 0.0397 | 0.0351 | 0.0301 | 0.0258 | 0.0221 | 0.016 | 0.012 |
 
 
+![](pictures/good_distribution.png)
 ![](pictures/all_data_distribution_stack_hist.png)
 ![](pictures/all_data_distribution.png)
