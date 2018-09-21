@@ -12,7 +12,7 @@ Distribution of high fitness (>0.5) sequences (stacked histogram)
 ![](pictures/ExpData_distribution_stacked.png)
 Distribution of all sample (stacked histogram)
 
-
+<br><br>
 # Simulated Data
 
 ## latent space visualization 
