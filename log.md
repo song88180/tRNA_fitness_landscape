@@ -1,3 +1,22 @@
+## 9/21/2018
+* Xukang Shen lead Journal Club with nature paper "RNA velocity of single cells" 
+
+## 9/20/2018
+* Visit Ding Xinqiang to inquire some machine learning questions.
+
+## 9/19/2018
+* Haoxuan lead the lab meeting, talking about his mutation accumulation experiment. Main results: worse the environment is, more likely the cell is going to mutate. Don't know if this character is adaptive or not.
+* drawing figures for sumulated data to see the structure.
+
+
+
+##
+
+## 9/16/2018
+* ZJU alumni gathering lunch
+
+## 9/15/2018
+* 
 
 ## 9/14/2018
 * Journal club, Haiqing talk about a paper "The genetic landscape of a physical interaction". 
