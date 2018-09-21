@@ -12,6 +12,14 @@ Distribution of high fitness (>0.5) sequences (stacked histogram)
 ![](pictures/ExpData_distribution_stacked.png)
 Distribution of all sample (stacked histogram)
 
+fitness = 0.5 : 27837
+fitness > 0.5 : 21316
+fitness > 0.6 : 13649
+fitness > 0.7 : 7886
+fitness > 0.8 : 4492
+fitness > 0.9 : 2365
+fitness > 1.0 : 745
+
 <br><br>
 # Simulated Data
 
