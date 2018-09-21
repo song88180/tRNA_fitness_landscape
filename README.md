@@ -5,7 +5,7 @@ Jianzhi Zhang lab project
 
 # Simulated Data
 
-# data visualization 
+## latent space visualization 
 ![](pictures/latent_space_dim_z_10_wd_0.01_1000g1000b.png)
 
 1000 good sequences + 1000 bad sequences mapped to 10d latent space
@@ -79,6 +79,11 @@ MAD_train: 0.1, MAD_test: 0.1
 | good ratio (fitness>270) | 0.0231 | 0.0390 | 0.0397 | 0.0351 | 0.0301 | 0.0258 | 0.0221 | 0.016 | 0.012 |
 
 
+# Sample Visualization
+
 ![](pictures/good_distribution.png)
+Distribution of high fitness (>270) sequences
 ![](pictures/all_data_distribution_stack_hist.png)
+Distribution of all sample (stacked histogram)
 ![](pictures/all_data_distribution.png)
+Distribution of all sample
