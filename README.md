@@ -1,6 +1,16 @@
 # tRNA_fitness_landscape
 Jianzhi Zhang lab project
 
+# ExpData
+
+## Sample Visualization
+
+![](pictures/ExpData_good_distribution_each.png)
+Distribution of high fitness (>0.5) sequences
+![](pictures/ExpData_good_distribution_stacked.png)
+Distribution of high fitness (>0.5) sequences (stacked histogram)
+![](pictures/ExpData_distribution_stacked.png)
+Distribution of all sample (stacked histogram)
 
 
 # Simulated Data
@@ -10,7 +20,7 @@ Jianzhi Zhang lab project
 
 1000 good sequences + 1000 bad sequences mapped to 10d latent space
 
-# Decoder Accuracy
+## Decoder Accuracy
 
 dim_z = 10
 
@@ -23,7 +33,7 @@ predict error for good sequences: mean = 3.501, std = 1.170, sample_size = 1000 
 predict error for bad sequences: mean = 4.091, std = 1.277, sample_size = 1000 <br>
 Ttest_indResult(statistic=-10.76520151991619, pvalue=2.638240089929478e-26)
 
-# Encoder Sigma
+## Encoder Sigma
 
 training subset: 1000g1000b
 dim_z = 10
@@ -41,7 +51,7 @@ training set:
 dim_z = 2
 sigma^2 = \[0.73748964, 0.84963286\]
 
-# gaussian process
+## gaussian process
 
 size_z = 10, 1000 good (training set) + 1000 bad:
 
@@ -79,7 +89,7 @@ MAD_train: 0.1, MAD_test: 0.1
 | good ratio (fitness>270) | 0.0231 | 0.0390 | 0.0397 | 0.0351 | 0.0301 | 0.0258 | 0.0221 | 0.016 | 0.012 |
 
 
-# Sample Visualization
+## Sample Visualization
 
 ![](pictures/good_distribution.png)
 Distribution of high fitness (>270) sequences
