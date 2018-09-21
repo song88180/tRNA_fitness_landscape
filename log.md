@@ -1,22 +1,27 @@
 ## 9/21/2018
-* Xukang Shen lead Journal Club with nature paper "RNA velocity of single cells" 
+* Xukang Shen lead Journal Club with the nature paper "RNA velocity of single cells" 
 
 ## 9/20/2018
+* Drawing figures for sumulated data to see the structure.
 * Visit Ding Xinqiang to inquire some machine learning questions.
 
 ## 9/19/2018
 * Haoxuan lead the lab meeting, talking about his mutation accumulation experiment. Main results: worse the environment is, more likely the cell is going to mutate. Don't know if this character is adaptive or not.
-* drawing figures for sumulated data to see the structure.
+* Try dim_z = 10, train VAE model
 
+## 8/18/2018
+* Gaussian process with 1000 high fitness sequences
+* Gaussian process with 1000 high fitness + 1000 low fitness sequences
 
-
-##
+## 9/17/2018
+* train 2d VAE model.
+* Gaussian process
 
 ## 9/16/2018
-* ZJU alumni gathering lunch
+* ZJU alumni gathering lunch.
 
 ## 9/15/2018
-* 
+* Get some second-handed furnitures.
 
 ## 9/14/2018
 * Journal club, Haiqing talk about a paper "The genetic landscape of a physical interaction". 
@@ -37,7 +42,6 @@
 
 ## 9/10/2018
 * read paper "Multi-environment fitness landscapes of a tRNA gene" and "The fitness landscape of a tRNA gene"
-
 
 ## 9/8,9/2018
 * settled down
