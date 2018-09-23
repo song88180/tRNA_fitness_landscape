@@ -3,6 +3,15 @@ Jianzhi Zhang lab project
 
 # ExpData
 
+
+## Training size:
+
+
+| training set          | 10000  | 12000  | 14000  | 16000  | 18000  | 20316  |
+|-----------------------|--------|--------|--------|--------|--------|--------|
+| traning loss          | 11.582 | 15.923 | 15.941 | 16.030 | 15.974 | 15.974 |
+| cross validation loss | 16.250 | 15.973 | 15.977 | 15.974 | 15.977 | 15.973 |
+
 ## Sample Visualization
 
 ![](pictures/ExpData_good_distribution_each.png)
