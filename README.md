@@ -3,6 +3,10 @@ Jianzhi Zhang lab project
 
 # ExpData
 
+## Add GtRNAdb data:
+<br>
+Arg - CTT: <br>
+4899 -> exclude duplicates -> 1910 <br>
 
 
 
