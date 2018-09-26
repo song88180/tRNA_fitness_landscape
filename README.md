@@ -3,6 +3,14 @@ Jianzhi Zhang lab project
 
 # ExpData
 
+## Continue traning:
+
+Expdata_train20316_continue_from_GtRNAdb_all: <br>
+rep1: <br>
+final training loss: 15.922318458557129;  cross validation loss: 16.010543823242188 <br>
+
+
+
 ## Add GtRNAdb data:
 
 ### GtRNAdb_Arg_CCT_all + ExpData_0.5_1770: <br>
