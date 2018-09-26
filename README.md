@@ -7,7 +7,7 @@ Jianzhi Zhang lab project
 
 GtRNAdb_Arg_CCT_all:
 
-![](pictures/latent_space_dim_z_2_wd_0.01_test.png)
+![](pictures/latent_space_dim_z_2_wd_0.01_test.png) <br>
 red: GtRNAdb seqs; blue: ExpData <br>
 final training loss: 32.959224700927734;  cross validation loss: 57.80743408203125
 
