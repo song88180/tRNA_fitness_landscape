@@ -4,10 +4,16 @@ Jianzhi Zhang lab project
 # ExpData
 
 ## Add GtRNAdb data:
+
+GtRNAdb_Arg_CCT_all:
+
+![](pictures/latent_space_dim_z_2_wd_0.01_test.png)
+red: GtRNAdb seqs; blue: ExpData <br>
+final training loss: 32.959224700927734;  cross validation loss: 57.80743408203125
+
 <br>
 Arg - CTT: <br>
 4899 -> exclude duplicates -> 1910 <br>
-
 
 
 ## Training size:
