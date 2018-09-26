@@ -5,6 +5,11 @@ Jianzhi Zhang lab project
 
 ## Add GtRNAdb data:
 
+GtRNAdb_Arg_CCT_all + ExpData_0.5_1770: <br>
+
+final training loss: 29.50;  cross validation loss: ? <br>
+mean 10-fold cross validation PCC: 0.188, PCC_train: 0.202, PCC_test: 0.243 <br>
+
 GtRNAdb_Arg_CCT_all:
 
 ![](pictures/latent_space_dim_z_2_wd_0.01_1000g1000b.png) <br>
@@ -13,6 +18,8 @@ red: 1000good (fitness>0.5); blue: 1000bad (fitness<=0.5) <br>
 ![](pictures/latent_space_dim_z_2_wd_0.01_test.png) <br>
 red: GtRNAdb seqs; blue: ExpData <br>
 final training loss: 32.959224700927734;  cross validation loss: 57.80743408203125
+
+
 
 <br>
 Arg - CTT: <br>
