@@ -8,6 +8,16 @@ Jianzhi Zhang lab project
 Expdata_train20316_continue_from_GtRNAdb_all: <br>
 rep1: <br>
 final training loss: 15.922318458557129;  cross validation loss: 16.010543823242188 <br>
+mean 10-fold cross validation PCC: 0.348, PCC_train: 0.352, PCC_test: 0.428 <br>
+rep2: <br>
+final training loss: 15.930549621582031;  cross validation loss: 15.967548370361328
+mean 10-fold cross validation PCC: 0.341, PCC_train: 0.347, PCC_test: 0.443 <br>
+rep3: <br>
+final training loss: 15.929313659667969;  cross validation loss: 15.964179992675781
+mean 10-fold cross validation PCC: 0.344, PCC_train: 0.347, PCC_test: 0.444 <br>
+rep4: <br>
+rep4: <br>
+final training loss: 15.920121192932129;  cross validation loss: 15.984963417053223
 
 
 
