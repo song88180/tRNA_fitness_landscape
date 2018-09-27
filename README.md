@@ -3,6 +3,18 @@ Jianzhi Zhang lab project
 
 # ExpData
 
+## Hidden layer num
+### dim_h = 10, ExpData_train20316
+    python batch_run/batch_run.py  --input MSA/ExpData_active_train20316.pkl --outdir output/ExpData_train20316_h10 --num_epoch 3000 --weight_decay 0.01 --dim_z 2 --cutoff 0.5  --cvdir output/Expdata_test1000_withgap --GPtrainmsa output/GP_train_1000g1000b_withgap/seq_msa_binary.pkl --GPtrainfitness MSA/GP_train_set_1000g1000b.pkl --suffix 1000g1000b
+
+final training loss: 16.197772979736328;  cross validation loss: 16.194124221801758 <br>
+mean 10-fold cross validation PCC: 0.711, PCC_train: 0.717, PCC_test: 0.654
+mean 10-fold cross validation PCC: 0.704, PCC_train: 0.707, PCC_test: 0.694
+mean 10-fold cross validation PCC: 0.691, PCC_train: 0.697, PCC_test: 0.723
+mean 10-fold cross validation PCC: 0.689, PCC_train: 0.695, PCC_test: 0.700
+mean 10-fold cross validation PCC: 0.670, PCC_train: 0.683, PCC_test: 0.702
+
+
 ## Continue traning:
 
 Expdata_train20316_continue_from_GtRNAdb_all: <br>
@@ -31,6 +43,10 @@ final training loss: 29.50;  cross validation loss: ? <br>
 mean 10-fold cross validation PCC: 0.188, PCC_train: 0.202, PCC_test: 0.243 <br>
 
 ### GtRNAdb_Arg_CCT_all:
+hidden layers channel: 10
+final training loss: 39.311851501464844;  cross validation loss: 55.582393646240234
+mean 10-fold cross validation PCC: 0.200, PCC_train: 0.200, PCC_test: 0.166
+
 
 ![](pictures/latent_space_dim_z_2_wd_0.01_1000g1000b_GtRNAdb_Arg_CCT_all.png) <br>
 red: 1000good (fitness>0.5); blue: 1000bad (fitness<=0.5) <br>
