@@ -5,15 +5,32 @@ Jianzhi Zhang lab project
 
 ## Hidden layer num
 ### dim_h = 10, ExpData_train20316
-    python batch_run/batch_run.py  --input MSA/ExpData_active_train20316.pkl --outdir output/ExpData_train20316_h10 --num_epoch 3000 --weight_decay 0.01 --dim_z 2 --cutoff 0.5  --cvdir output/Expdata_test1000_withgap --GPtrainmsa output/GP_train_1000g1000b_withgap/seq_msa_binary.pkl --GPtrainfitness MSA/GP_train_set_1000g1000b.pkl --suffix 1000g1000b
+#### Gaossian Process training: GP_train_set_2000g.pkl
 
+mean 10-fold cross validation PCC: 0.051, PCC_train: 0.050, PCC_test: 0.017, PCC_good: 0.017 <br>
+MAD_train: 0.1174, MAD_test: 0.1226, MAD_good: 0.1226
+<br>
+#### Gaussian Process training: GP_train_set_1000g1000b
+    python batch_run/batch_run.py  
+        --input MSA/ExpData_active_train20316.pkl 
+        --outdir output/ExpData_train20316_h10 
+        --num_epoch 3000 --weight_decay 0.01 
+        --dim_z 2 
+        --cutoff 0.5  
+        --cvdir output/Expdata_test1000_withgap 
+        --GPtrainmsa output/GP_train_1000g1000b_withgap/seq_msa_binary.pkl 
+        --GPtrainfitness MSA/GP_train_set_1000g1000b.pkl 
+        --suffix 1000g1000b
+    
 final training loss: 16.197772979736328;  cross validation loss: 16.194124221801758 <br>
-mean 10-fold cross validation PCC: 0.684, PCC_train: 0.692, PCC_test: 0.710, PCC_good: 0.125 <br>
-MAD_train: 0.0663, MAD_test: 0.0678, MAD_good: 0.1314 <br>
-mean 10-fold cross validation PCC: 0.669, PCC_train: 0.670, PCC_test: 0.691, PCC_good: -0.040 <br>
-MAD_train: 0.0695, MAD_test: 0.0641, MAD_good: 0.1290 <br>
-mean 10-fold cross validation PCC: 0.708, PCC_train: 0.708, PCC_test: 0.668, PCC_good: -0.002 <br>
-MAD_train: 0.0666, MAD_test: 0.0667, MAD_good: 0.1365 <br>
+mean 10-fold cross validation PCC: 0.701, PCC_train: 0.703, PCC_test: 0.698, PCC_good: 0.582
+MAD_train: 0.0661, MAD_test: 0.0672, MAD_good: 0.0909
+mean 10-fold cross validation PCC: 0.683, PCC_train: 0.687, PCC_test: 0.727, PCC_good: 0.576
+MAD_train: 0.0674, MAD_test: 0.0654, MAD_good: 0.0935
+mean 10-fold cross validation PCC: 0.685, PCC_train: 0.685, PCC_test: 0.700, PCC_good: 0.608
+MAD_train: 0.0689, MAD_test: 0.0650, MAD_good: 0.0869
+mean 10-fold cross validation PCC: 0.664, PCC_train: 0.670, PCC_test: 0.698, PCC_good: 0.540
+MAD_train: 0.0689, MAD_test: 0.0640, MAD_good: 0.0907
 
 ## Continue traning:
 
