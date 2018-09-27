@@ -11,15 +11,15 @@ mean 10-fold cross validation PCC: 0.051, PCC_train: 0.050, PCC_test: 0.017, PCC
 MAD_train: 0.1174, MAD_test: 0.1226, MAD_good: 0.1226
 <br>
 #### Gaussian Process training: GP_train_set_1000g1000b
-    python batch_run/batch_run.py  
-        --input MSA/ExpData_active_train20316.pkl 
-        --outdir output/ExpData_train20316_h10 
-        --num_epoch 3000 --weight_decay 0.01 
-        --dim_z 2 
-        --cutoff 0.5  
-        --cvdir output/Expdata_test1000_withgap 
-        --GPtrainmsa output/GP_train_1000g1000b_withgap/seq_msa_binary.pkl 
-        --GPtrainfitness MSA/GP_train_set_1000g1000b.pkl 
+    python batch_run/batch_run.py  \
+        --input MSA/ExpData_active_train20316.pkl \
+        --outdir output/ExpData_train20316_h10 \
+        --num_epoch 3000 --weight_decay 0.01 \
+        --dim_z 2 \
+        --cutoff 0.5 \  
+        --cvdir output/Expdata_test1000_withgap \
+        --GPtrainmsa output/GP_train_1000g1000b_withgap/seq_msa_binary.pkl \
+        --GPtrainfitness MSA/GP_train_set_1000g1000b.pkl \
         --suffix 1000g1000b
     
 final training loss: 16.197772979736328;  cross validation loss: 16.194124221801758 <br>
