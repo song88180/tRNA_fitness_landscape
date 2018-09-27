@@ -4,12 +4,22 @@ Jianzhi Zhang lab project
 # ExpData
 
 ## Hidden layer num
+
+### dim_h = 50, ExpData_train20316
+mean 10-fold cross validation PCC: 0.337, PCC_train: 0.340, PCC_test: 0.396, PCC_good: 0.376
+MAD_train: 0.0959, MAD_test: 0.0997, MAD_good: 0.1223
+
+### dim_h = 50, ExpData_train20316
+mean 10-fold cross validation PCC: 0.337, PCC_train: 0.340, PCC_test: 0.396, PCC_good: 0.376
+MAD_train: 0.0959, MAD_test: 0.0997, MAD_good: 0.1223
+
 ### dim_h = 10, ExpData_train20316
 #### Gaossian Process training: GP_train_set_2000g.pkl
 
 mean 10-fold cross validation PCC: 0.051, PCC_train: 0.050, PCC_test: 0.017, PCC_good: 0.017 <br>
 MAD_train: 0.1174, MAD_test: 0.1226, MAD_good: 0.1226
 <br>
+
 #### Gaussian Process training: GP_train_set_1000g1000b
     python batch_run/batch_run.py  \
         --input MSA/ExpData_active_train20316.pkl \
