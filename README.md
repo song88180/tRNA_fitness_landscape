@@ -16,9 +16,8 @@ rep3: <br>
 final training loss: 15.929313659667969;  cross validation loss: 15.964179992675781
 mean 10-fold cross validation PCC: 0.344, PCC_train: 0.347, PCC_test: 0.444 <br>
 rep4: <br>
-rep4: <br>
 final training loss: 15.920121192932129;  cross validation loss: 15.984963417053223
-
+mean 10-fold cross validation PCC: 0.324, PCC_train: 0.330, PCC_test: 0.412 <br>
 
 
 ## Add GtRNAdb data:
