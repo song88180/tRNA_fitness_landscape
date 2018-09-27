@@ -8,11 +8,11 @@ Jianzhi Zhang lab project
     python batch_run/batch_run.py  --input MSA/ExpData_active_train20316.pkl --outdir output/ExpData_train20316_h10 --num_epoch 3000 --weight_decay 0.01 --dim_z 2 --cutoff 0.5  --cvdir output/Expdata_test1000_withgap --GPtrainmsa output/GP_train_1000g1000b_withgap/seq_msa_binary.pkl --GPtrainfitness MSA/GP_train_set_1000g1000b.pkl --suffix 1000g1000b
 
 final training loss: 16.197772979736328;  cross validation loss: 16.194124221801758 <br>
-mean 10-fold cross validation PCC: 0.711, PCC_train: 0.717, PCC_test: 0.654
-mean 10-fold cross validation PCC: 0.704, PCC_train: 0.707, PCC_test: 0.694
-mean 10-fold cross validation PCC: 0.691, PCC_train: 0.697, PCC_test: 0.723
-mean 10-fold cross validation PCC: 0.689, PCC_train: 0.695, PCC_test: 0.700
-mean 10-fold cross validation PCC: 0.670, PCC_train: 0.683, PCC_test: 0.702
+mean 10-fold cross validation PCC: 0.711, PCC_train: 0.717, PCC_test: 0.654 <br>
+mean 10-fold cross validation PCC: 0.704, PCC_train: 0.707, PCC_test: 0.694 <br> 
+mean 10-fold cross validation PCC: 0.691, PCC_train: 0.697, PCC_test: 0.723 <br>
+mean 10-fold cross validation PCC: 0.689, PCC_train: 0.695, PCC_test: 0.700 <br>
+mean 10-fold cross validation PCC: 0.670, PCC_train: 0.683, PCC_test: 0.702 <br>
 
 
 ## Continue traning:
