@@ -9,18 +9,25 @@ Jianzhi Zhang lab project
 mean 10-fold cross validation PCC: 0.337, PCC_train: 0.340, PCC_test: 0.396, PCC_good: 0.376
 MAD_train: 0.0959, MAD_test: 0.0997, MAD_good: 0.1223
 
-### dim_h = 50, ExpData_train20316
-mean 10-fold cross validation PCC: 0.337, PCC_train: 0.340, PCC_test: 0.396, PCC_good: 0.376
-MAD_train: 0.0959, MAD_test: 0.0997, MAD_good: 0.1223
+### dim_h = 20, ExpData_train20316
+final training loss: 16.109397888183594;  cross validation loss: 16.11008644104004
+mean 10-fold cross validation PCC: 0.664, PCC_train: 0.670, PCC_test: 0.698, PCC_good: 0.540
+MAD_train: 0.0689, MAD_test: 0.0640, MAD_good: 0.0907
+mean 10-fold cross validation PCC: 0.590, PCC_train: 0.592, PCC_test: 0.630, PCC_good: 0.580
+MAD_train: 0.0775, MAD_test: 0.0737, MAD_good: 0.0906
+mean 10-fold cross validation PCC: 0.555, PCC_train: 0.564, PCC_test: 0.557, PCC_good: 0.410
+MAD_train: 0.0783, MAD_test: 0.0836, MAD_good: 0.1085
+mean 10-fold cross validation PCC: 0.551, PCC_train: 0.553, PCC_test: 0.623, PCC_good: 0.542
+MAD_train: 0.0790, MAD_test: 0.0783, MAD_good: 0.0981
 
 ### dim_h = 10, ExpData_train20316
-#### Gaossian Process training: GP_train_set_2000g.pkl
+#### Gaossian Process training: GP_train_set_2000g
 
 mean 10-fold cross validation PCC: 0.051, PCC_train: 0.050, PCC_test: 0.017, PCC_good: 0.017 <br>
 MAD_train: 0.1174, MAD_test: 0.1226, MAD_good: 0.1226
 <br>
 
-#### Gaussian Process training: GP_train_set_1000g1000b
+#### Gaussian Process training: GP_train_set_1000g1000b, epoch = 3000
     python batch_run/batch_run.py  \
         --input MSA/ExpData_active_train20316.pkl \
         --outdir output/ExpData_train20316_h10 \
@@ -41,6 +48,38 @@ mean 10-fold cross validation PCC: 0.685, PCC_train: 0.685, PCC_test: 0.700, PCC
 MAD_train: 0.0689, MAD_test: 0.0650, MAD_good: 0.0869 <br>
 mean 10-fold cross validation PCC: 0.664, PCC_train: 0.670, PCC_test: 0.698, PCC_good: 0.540 <br>
 MAD_train: 0.0689, MAD_test: 0.0640, MAD_good: 0.0907 <br>
+mean 10-fold cross validation PCC: 0.497, PCC_train: 0.526, PCC_test: 0.548, PCC_good: 0.440 <br>
+MAD_train: 0.1038, MAD_test: 0.1050, MAD_good: 0.1199 <br>
+
+#### Gaussian Process training: GP_train_set_1000g1000b, epoch = 5000
+final training loss: 16.147167205810547;  cross validation loss: 16.14829444885254 <br>
+mean 10-fold cross validation PCC: 0.465, PCC_train: 0.458, PCC_test: 0.514, PCC_good: 0.446 <br>
+MAD_train: 0.1050, MAD_test: 0.1060, MAD_good: 0.1207 <br>
+mean 10-fold cross validation PCC: 0.551, PCC_train: 0.553, PCC_test: 0.623, PCC_good: 0.542 <br>
+MAD_train: 0.0790, MAD_test: 0.0783, MAD_good: 0.0981 <br>
+mean 10-fold cross validation PCC: 0.443, PCC_train: 0.553, PCC_test: 0.523, PCC_good: 0.463
+MAD_train: 0.1063, MAD_test: 0.1034, MAD_good: 0.1146
+
+### dim_h = 5, ExpData_train20316
+#### Gaossian Process training: GP_train_set_1000g1000b, epoch = 6000
+final training loss: 16.2460994720459;  cross validation loss: 16.24980926513672
+mean 10-fold cross validation PCC: 0.599, PCC_train: 0.601, PCC_test: 0.611, PCC_good: 0.549 <br>
+MAD_train: 0.0788, MAD_test: 0.0731, MAD_good: 0.0937 <br>
+mean 10-fold cross validation PCC: 0.598, PCC_train: 0.601, PCC_test: 0.590, PCC_good: 0.525 <br>
+MAD_train: 0.0762, MAD_test: 0.0791, MAD_good: 0.1020 <br>
+mean 10-fold cross validation PCC: 0.563, PCC_train: 0.572, PCC_test: 0.527, PCC_good: 0.449 <br>
+MAD_train: 0.0772, MAD_test: 0.0859, MAD_good: 0.1115 <br>
+mean 10-fold cross validation PCC: 0.549, PCC_train: 0.553, PCC_test: 0.634, PCC_good: 0.501<br>
+MAD_train: 0.0811, MAD_test: 0.0683, MAD_good: 0.0892<br>
+<br>
+#### Gaossian Process training: GP_train_set_1000g1000b, epoch = 4000
+mean 10-fold cross validation PCC: 0.657, PCC_train: 0.664, PCC_test: 0.714, PCC_good: 0.597 <br>
+MAD_train: 0.0709, MAD_test: 0.0691, MAD_good: 0.094 <br>
+mean 10-fold cross validation PCC: 0.590, PCC_train: 0.592, PCC_test: 0.630, PCC_good: 0.580 <br>
+MAD_train: 0.0790, MAD_test: 0.0783, MAD_good: 0.0981 <br>
+mean 10-fold cross validation PCC: 0.557, PCC_train: 0.560, PCC_test: 0.575, PCC_good: 0.420
+MAD_train: 0.0795, MAD_test: 0.0790, MAD_good: 0.1047
+
 
 ## Continue traning:
 
