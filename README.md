@@ -48,8 +48,6 @@ mean 10-fold cross validation PCC: 0.685, PCC_train: 0.685, PCC_test: 0.700, PCC
 MAD_train: 0.0689, MAD_test: 0.0650, MAD_good: 0.0869 <br>
 mean 10-fold cross validation PCC: 0.664, PCC_train: 0.670, PCC_test: 0.698, PCC_good: 0.540 <br>
 MAD_train: 0.0689, MAD_test: 0.0640, MAD_good: 0.0907 <br>
-mean 10-fold cross validation PCC: 0.497, PCC_train: 0.526, PCC_test: 0.548, PCC_good: 0.440 <br>
-MAD_train: 0.1038, MAD_test: 0.1050, MAD_good: 0.1199 <br>
 
 #### Gaussian Process training: GP_train_set_1000g1000b, epoch = 5000
 final training loss: 16.147167205810547;  cross validation loss: 16.14829444885254 <br>
@@ -59,6 +57,8 @@ mean 10-fold cross validation PCC: 0.551, PCC_train: 0.553, PCC_test: 0.623, PCC
 MAD_train: 0.0790, MAD_test: 0.0783, MAD_good: 0.0981 <br>
 mean 10-fold cross validation PCC: 0.443, PCC_train: 0.553, PCC_test: 0.523, PCC_good: 0.463
 MAD_train: 0.1063, MAD_test: 0.1034, MAD_good: 0.1146
+mean 10-fold cross validation PCC: 0.497, PCC_train: 0.526, PCC_test: 0.548, PCC_good: 0.440 <br>
+MAD_train: 0.1038, MAD_test: 0.1050, MAD_good: 0.1199 <br>
 
 ### dim_h = 5, ExpData_train20316
 #### Gaossian Process training: GP_train_set_1000g1000b, epoch = 6000
