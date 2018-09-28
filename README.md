@@ -55,8 +55,8 @@ mean 10-fold cross validation PCC: 0.465, PCC_train: 0.458, PCC_test: 0.514, PCC
 MAD_train: 0.1050, MAD_test: 0.1060, MAD_good: 0.1207 <br>
 mean 10-fold cross validation PCC: 0.551, PCC_train: 0.553, PCC_test: 0.623, PCC_good: 0.542 <br>
 MAD_train: 0.0790, MAD_test: 0.0783, MAD_good: 0.0981 <br>
-mean 10-fold cross validation PCC: 0.443, PCC_train: 0.553, PCC_test: 0.523, PCC_good: 0.463
-MAD_train: 0.1063, MAD_test: 0.1034, MAD_good: 0.1146
+mean 10-fold cross validation PCC: 0.443, PCC_train: 0.553, PCC_test: 0.523, PCC_good: 0.463 <br>
+MAD_train: 0.1063, MAD_test: 0.1034, MAD_good: 0.1146 <br>
 mean 10-fold cross validation PCC: 0.497, PCC_train: 0.526, PCC_test: 0.548, PCC_good: 0.440 <br>
 MAD_train: 0.1038, MAD_test: 0.1050, MAD_good: 0.1199 <br>
 
