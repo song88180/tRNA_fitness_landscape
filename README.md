@@ -33,7 +33,7 @@ MAD_train: 0.1174, MAD_test: 0.1226, MAD_good: 0.1226
         --outdir output/ExpData_train20316_h10 \
         --num_epoch 3000 --weight_decay 0.01 \
         --dim_z 2 \
-        --cutoff 0.5 \  
+        --cutoff 0.5 \
         --cvdir output/Expdata_test1000_withgap \
         --GPtrainmsa output/GP_train_1000g1000b_withgap/seq_msa_binary.pkl \
         --GPtrainfitness MSA/GP_train_set_1000g1000b.pkl \
