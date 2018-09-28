@@ -38,7 +38,7 @@ MAD_train: 0.1174, MAD_test: 0.1226, MAD_good: 0.1226
         --GPtrainmsa output/GP_train_1000g1000b_withgap/seq_msa_binary.pkl \
         --GPtrainfitness MSA/GP_train_set_1000g1000b.pkl \
         --suffix 1000g1000b
-    
+##### rep1    
 final training loss: 16.197772979736328;  cross validation loss: 16.194124221801758 <br>
 mean 10-fold cross validation PCC: 0.701, PCC_train: 0.703, PCC_test: 0.698, PCC_good: 0.582 <br>
 MAD_train: 0.0661, MAD_test: 0.0672, MAD_good: 0.0909 <br>
@@ -48,6 +48,11 @@ mean 10-fold cross validation PCC: 0.685, PCC_train: 0.685, PCC_test: 0.700, PCC
 MAD_train: 0.0689, MAD_test: 0.0650, MAD_good: 0.0869 <br>
 mean 10-fold cross validation PCC: 0.664, PCC_train: 0.670, PCC_test: 0.698, PCC_good: 0.540 <br>
 MAD_train: 0.0689, MAD_test: 0.0640, MAD_good: 0.0907 <br>
+
+##### rep2
+final training loss: 16.221872329711914;  cross validation loss: 16.215721130371094 <br>
+mean 10-fold cross validation PCC: 0.709, PCC_train: 0.714, PCC_test: 0.648, PCC_good: 0.549 <br>
+MAD_train: 0.0671, MAD_test: 0.0704, MAD_good: 0.0928 <br>
 
 #### Gaussian Process training: GP_train_set_1000g1000b, epoch = 5000
 final training loss: 16.147167205810547;  cross validation loss: 16.14829444885254 <br>
