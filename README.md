@@ -5,15 +5,48 @@ Jianzhi Zhang lab project
 
 ## Latent Space Dimension
 
-### dim_h = 10, dim_z = 3
-#### weight_decay = 0.01
+### dim_h = 10, dim_z = 12， weight_decay = 0.01，epoch = 3000
+final training loss: 16.004474639892578;  cross validation loss: 16.00810432434082
+mean 10-fold cross validation PCC: 0.704, PCC_train: 0.716, PCC_test: 0.730, PCC_good: 0.626
+MAD_train: 0.0647, MAD_test: 0.0674, MAD_good: 0.0944
+
+### dim_h = 10, dim_z = 12， weight_decay = 0.01，epoch = 3000
+final training loss: 16.003381729125977;  cross validation loss: 16.015609741210938
+mean 10-fold cross validation PCC: 0.719, PCC_train: 0.731, PCC_test: 0.702, PCC_good: 0.555
+MAD_train: 0.0657, MAD_test: 0.0639, MAD_good: 0.0879
+
+### dim_h = 10, dim_z = 10， weight_decay = 0.01，epoch = 3000
+final training loss: 16.007545471191406;  cross validation loss: 16.011503219604492
+mean 10-fold cross validation PCC: 0.704, PCC_train: 0.714, PCC_test: 0.719, PCC_good: 0.604 <br>
+MAD_train: 0.0659, MAD_test: 0.0686, MAD_good: 0.0981 <br>
+
+final training loss: 16.0082950592041;  cross validation loss: 16.008392333984375 <br>
+mean 10-fold cross validation PCC: 0.720, PCC_train: 0.735, PCC_test: 0.692, PCC_good: 0.531 <br>
+MAD_train: 0.0635, MAD_test: 0.0707, MAD_good: 0.1070 <br>
+
+### dim_h = 10, dim_z = 8 weight_decay = 0.01，epoch = 3000
+final training loss: 16.000329971313477;  cross validation loss: 16.00382423400879 <br>
+mean 10-fold cross validation PCC: 0.643, PCC_train: 0.665, PCC_test: 0.580, PCC_good: 0.424 <br>
+MAD_train: 0.0731, MAD_test: 0.0779, MAD_good: 0.1041 <br>
+
+final training loss: 16.002300262451172;  cross validation loss: 16.004133224487305 <br>
+mean 10-fold cross validation PCC: 0.598, PCC_train: 0.617, PCC_test: 0.649, PCC_good: 0.583 <br>
+MAD_train: 0.0767, MAD_test: 0.0723, MAD_good: 0.0915 <br>
+
+### dim_h = 10, dim_z = 5 weight_decay = 0.01，epoch = 3000
+final training loss: 16.01358413696289;  cross validation loss: 16.012353897094727 <br>
+mean 10-fold cross validation PCC: 0.679, PCC_train: 0.685, PCC_test: 0.695, PCC_good: 0.598 <br>
+MAD_train: 0.0698, MAD_test: 0.0661, MAD_good: 0.0891 <br>
+
+final training loss: 16.00612449645996;  cross validation loss: 16.008193969726562 <br>
+mean 10-fold cross validation PCC: 0.707, PCC_train: 0.716, PCC_test: 0.670, PCC_good: 0.589 <br>
+MAD_train: 0.0670, MAD_test: 0.0694, MAD_good: 0.0961 <br>
+
+### dim_h = 10, dim_z = 3  weight_decay = 0.01，epoch = 3000
 final training loss: 16.019718170166016;  cross validation loss: 16.030803680419922 <br>
 mean 10-fold cross validation PCC: 0.663, PCC_train: 0.674, PCC_test: 0.690, PCC_good: 0.583 <br>
 MAD_train: 0.0696, MAD_test: 0.0714, MAD_good: 0.0934  <br>
-#### weight_decay = 0.001
-final training loss:  15.97; cross validation loss: ??
-mean 10-fold cross validation PCC: 0.428, PCC_train: 0.443, PCC_test: 0.380, PCC_good: 0.379
-MAD_train: 0.0899, MAD_test: 0.0920, MAD_good: 0.1055
+
 
 
 ## Hidden layer num
