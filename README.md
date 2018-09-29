@@ -12,7 +12,8 @@ mean 10-fold cross validation PCC: 0.663, PCC_train: 0.674, PCC_test: 0.690, PCC
 MAD_train: 0.0696, MAD_test: 0.0714, MAD_good: 0.0934  <br>
 #### weight_decay = 0.001
 final training loss:  15.97; cross validation loss: ??
-
+mean 10-fold cross validation PCC: 0.428, PCC_train: 0.443, PCC_test: 0.380, PCC_good: 0.379
+MAD_train: 0.0899, MAD_test: 0.0920, MAD_good: 0.1055
 
 
 ## Hidden layer num
