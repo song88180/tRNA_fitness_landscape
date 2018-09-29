@@ -4,8 +4,8 @@ Jianzhi Zhang lab project
 # ExpData
 
 ## Latent Space Dimension
-
 <br>
+
 | dim_z                | 2      | 3      | 5      | 8      | 10     | 12     | 18     | 22     | 30     |
 |----------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | train loss           | 16.197 | 16.020 | 16.014 | 16.000 | 16.007 | 16.003 | 16.004 | 16.001 | 16.001 |
@@ -13,6 +13,7 @@ Jianzhi Zhang lab project
 | training PCC         | 0.687  | 0.674  | 0.685  | 0.665  | 0.714  | 0.731  | 0.716  | 0.673  | 0.686  |
 | test PCC             | 0.700  | 0.690  | 0.695  | 0.580  | 0.719  | 0.702  | 0.730  | 0.677  | 0.623  |
 | good PCC             | 0.576  | 0.583  | 0.598  | 0.424  | 0.604  | 0.555  | 0.626  | 0.557  | 0.510  |
+
 <bt>
 
 ### dim_h = 10, dim_z = 30， weight_decay = 0.01，epoch = 3000
@@ -22,21 +23,21 @@ MAD_train: 0.0698, MAD_test: 0.0805, MAD_good: 0.1084 <br>
 
 ### dim_h = 10, dim_z = 22， weight_decay = 0.01，epoch = 3000
 final training loss: 16.001270294189453;  cross validation loss: 16.00200843811035 <br>
-mean 10-fold cross validation PCC: 0.658, PCC_train: 0.673, PCC_test: 0.677, PCC_good: 0.557
+mean 10-fold cross validation PCC: 0.658, PCC_train: 0.673, PCC_test: 0.677, PCC_good: 0.557 <br>
 MAD_train: 0.0709, MAD_test: 0.0693, MAD_good: 0.0933
 
 ### dim_h = 10, dim_z = 18， weight_decay = 0.01，epoch = 3000
-final training loss: 16.004474639892578;  cross validation loss: 16.00810432434082
-mean 10-fold cross validation PCC: 0.704, PCC_train: 0.716, PCC_test: 0.730, PCC_good: 0.626
-MAD_train: 0.0647, MAD_test: 0.0674, MAD_good: 0.0944
+final training loss: 16.004474639892578;  cross validation loss: 16.00810432434082 <br>
+mean 10-fold cross validation PCC: 0.704, PCC_train: 0.716, PCC_test: 0.730, PCC_good: 0.626 <br>
+MAD_train: 0.0647, MAD_test: 0.0674, MAD_good: 0.0944 <br>
 
 ### dim_h = 10, dim_z = 12， weight_decay = 0.01，epoch = 3000
-final training loss: 16.003381729125977;  cross validation loss: 16.015609741210938
-mean 10-fold cross validation PCC: 0.719, PCC_train: 0.731, PCC_test: 0.702, PCC_good: 0.555
-MAD_train: 0.0657, MAD_test: 0.0639, MAD_good: 0.0879
+final training loss: 16.003381729125977;  cross validation loss: 16.015609741210938 <br>
+mean 10-fold cross validation PCC: 0.719, PCC_train: 0.731, PCC_test: 0.702, PCC_good: 0.555 <br>
+MAD_train: 0.0657, MAD_test: 0.0639, MAD_good: 0.0879 <br>
 
 ### dim_h = 10, dim_z = 10， weight_decay = 0.01，epoch = 3000
-final training loss: 16.007545471191406;  cross validation loss: 16.011503219604492
+final training loss: 16.007545471191406;  cross validation loss: 16.011503219604492 <br>
 mean 10-fold cross validation PCC: 0.704, PCC_train: 0.714, PCC_test: 0.719, PCC_good: 0.604 <br>
 MAD_train: 0.0659, MAD_test: 0.0686, MAD_good: 0.0981 <br>
 
