@@ -5,7 +5,15 @@ Jianzhi Zhang lab project
 
 ## Latent Space Dimension
 
-### dim_h = 10, dim_z = 12， weight_decay = 0.01，epoch = 3000
+### dim_h = 10, dim_z = 30， weight_decay = 0.01，epoch = 3000
+final training loss: 16.000947952270508;  cross validation loss: 16.003686904907227 <br>
+mean 10-fold cross validation PCC: 0.655, PCC_train: 0.686, PCC_test: 0.623, PCC_good: 0.510 <br>
+MAD_train: 0.0698, MAD_test: 0.0805, MAD_good: 0.1084 <br>
+
+### dim_h = 10, dim_z = 22， weight_decay = 0.01，epoch = 3000
+final training loss: 16.001270294189453;  cross validation loss: 16.00200843811035 <br>
+
+### dim_h = 10, dim_z = 18， weight_decay = 0.01，epoch = 3000
 final training loss: 16.004474639892578;  cross validation loss: 16.00810432434082
 mean 10-fold cross validation PCC: 0.704, PCC_train: 0.716, PCC_test: 0.730, PCC_good: 0.626
 MAD_train: 0.0647, MAD_test: 0.0674, MAD_good: 0.0944
