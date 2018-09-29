@@ -3,6 +3,18 @@ Jianzhi Zhang lab project
 
 # ExpData
 
+## Latent Space Dimension
+
+### dim_h = 10, dim_z = 3
+#### weight_decay = 0.01
+final training loss: 16.019718170166016;  cross validation loss: 16.030803680419922 <br>
+mean 10-fold cross validation PCC: 0.663, PCC_train: 0.674, PCC_test: 0.690, PCC_good: 0.583 <br>
+MAD_train: 0.0696, MAD_test: 0.0714, MAD_good: 0.0934  <br>
+#### weight_decay = 0.001
+final training loss:  15.97; cross validation loss: ??
+
+
+
 ## Hidden layer num
 
 ### dim_h = 50, ExpData_train20316
