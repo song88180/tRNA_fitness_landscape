@@ -3,7 +3,7 @@ Jianzhi Zhang lab project
 
 # variance test：
 
-
+## comparism
 
 ## different VAE training set
 
