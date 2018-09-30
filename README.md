@@ -3,7 +3,16 @@ Jianzhi Zhang lab project
 
 # variance test：
 
+
+
 ## different VAE training set
+
+average: 
+mean 10-fold cross validation PCC: 0.6878 ; std: 0.0162 <br>
+PCC_train: 0.7018; std: 0.0131 <br>
+PCC_test: 0.7156; std: 0.0272 <br>
+PCC_good: 0.6004; std: 0.0423 <br>
+
 final training loss: 16.003093719482422;  cross validation loss: 16.007089614868164 <br>
 mean 10-fold cross validation PCC: 0.704, PCC_train: 0.712, PCC_test: 0.729, PCC_good: 0.576 <br>
 MAD_train: 0.0659, MAD_test: 0.0662, MAD_good: 0.0952 <br>
@@ -25,6 +34,13 @@ mean 10-fold cross validation PCC: 0.668, PCC_train: 0.693, PCC_test: 0.680, PCC
 MAD_train: 0.0674, MAD_test: 0.0743, MAD_good: 0.1011 <br>
 
 ### different GP training set
+
+average: 
+mean 10-fold cross validation PCC: 0.6714 ; std: 0.0183 <br>
+PCC_train: 0.6876; std: 0.0180 <br>
+PCC_test: 0.6754; std: 0.0105 <br>
+PCC_good: 0.5448; std: 0.0357 <br>
+
 mean 10-fold cross validation PCC: 0.685, PCC_train: 0.695, PCC_test: 0.670, PCC_good: 0.574 <br>
 MAD_train: 0.0670, MAD_test: 0.0676, MAD_good: 0.0897 <br>
 mean 10-fold cross validation PCC: 0.689, PCC_train: 0.710, PCC_test: 0.695, PCC_good: 0.589 <br>
@@ -35,7 +51,15 @@ mean 10-fold cross validation PCC: 0.672, PCC_train: 0.690, PCC_test: 0.676, PCC
 MAD_train: 0.0688, MAD_test: 0.0714, MAD_good: 0.1056 <br>
 mean 10-fold cross validation PCC: 0.637, PCC_train: 0.655, PCC_test: 0.664, PCC_good: 0.510 <br>
 MAD_train: 0.0746, MAD_test: 0.0689, MAD_good: 0.0917 <br>
+
 ### same repeat：
+
+average: 
+mean 10-fold cross validation PCC: 0.6968 ; std: 0.0096 <br>
+PCC_train: 0.714; std: 0.0083 <br>
+PCC_test: 0.6812; std: 0.0333 <br>
+PCC_good: 0.572; std: 0.0354 <br>
+
 mean 10-fold cross validation PCC: 0.713, PCC_train: 0.729, PCC_test: 0.622, PCC_good: 0.502 <br>
 MAD_train: 0.0660, MAD_test: 0.0724, MAD_good: 0.1008 <br>
 mean 10-fold cross validation PCC: 0.697, PCC_train: 0.711, PCC_test: 0.691, PCC_good: 0.589 <br>
