@@ -430,3 +430,9 @@ Distribution of high fitness (>270) sequences
 Distribution of all sample (stacked histogram)
 ![](pictures/all_data_distribution.png)
 Distribution of all sample
+
+### Generate artificial samples
+F = sum(f1(p1))+sum(f2(p1,p2))+sum(f3(p1,p2,p3))
+f1: nucleotide in wt state has highest fitness. (normal distribution) (parameters: 72 * 4 = 288)
+    f1(wt)=max(normal(std=2))+normal(u=2,std=1)
+f2: 
