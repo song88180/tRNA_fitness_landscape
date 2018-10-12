@@ -5,6 +5,16 @@ Jianzhi Zhang lab project
 
 ![](pictures/sigma-fitness.png)
 
+```python
+>>> np.mean(good_sigma_d3,0)
+array([0.9978722 , 0.99931866, 0.9588676 ], dtype=float32)
+>>> np.mean(bad_sigma_d3,0)
+array([0.9985219, 1.0034329, 0.968612 ], dtype=float32)
+>>> stats.ttest_ind(good_sigma_d3, bad_sigma_d3, axis=0, equal_var=True)
+Ttest_indResult(statistic=array([ -8.925571, -21.433891, -22.285484], dtype=float32),
+pvalue=array([9.79991677e-19, 6.64097670e-92, 1.92631155e-98]))
+```
+
 # variance test：
 
 ## comparism
