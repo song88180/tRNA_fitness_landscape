@@ -1,6 +1,10 @@
 # tRNA_fitness_landscape
 Jianzhi Zhang lab project
 
+# mapping sigma - fitness
+
+![](pictures/sigma-fitness.png)
+
 # variance test：
 
 ## comparism
