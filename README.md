@@ -1,6 +1,14 @@
 # tRNA_fitness_landscape
 Jianzhi Zhang lab project
 
+# linear model
+
+## F = f1A\*1A+f1T\*1T+f1C\*1C+f1G\*1G+...  (only consider variance of single mutant)
+PCC = 0.56476
+
+
+
+
 # mapping sigma - fitness
 
 ![](pictures/sigma-fitness.png)
