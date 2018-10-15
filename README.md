@@ -4,10 +4,23 @@ Jianzhi Zhang lab project
 # linear model
 
 ## F = f1A\*1A+f1T\*1T+f1C\*1C+f1G\*1G+...  (only consider variance of single mutant)
-PCC = 0.56476
+### 20316 good seq: lambda = 0.1
+training set: PCC=0.5367 <br>
+test set: 0.5086 <br>
+### all: lambda = 0.1
+training set: 0.5834 <br>
+test set: 0.5042 <br>
+### all: lambda = 0
+training set: 0.6129 <br>
+test set: 0.5457 <br>
+### all: lambda = 0 or 0.1 or 0.5, normal p
+training set: 0.6424 <br>
+test set: 0.5648 <br>
 
-
-
+## F = f1A\*1A+f1T\*1T+f1C\*1C+f1G\*1G+...+f1A2A\*1A\*2A+f1A2A\*1A\*2A  (only consider variance of single mutant)
+### 20316 good seq, lambda = 0
+training set: PCC = 0.56476
+### 20316 good seq, lambda = 0.1, normal p
 
 # mapping sigma - fitness
 
