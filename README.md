@@ -68,6 +68,7 @@ pvalue=array([9.79991677e-19, 6.64097670e-92, 1.92631155e-98]))
 ## comparism
 
 
+![](pictures/PCC_hist.pdf)
 
 ## different VAE training set
 
