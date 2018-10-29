@@ -49,6 +49,10 @@ test set: 0.5648 <br>
 training set: PCC = 0.56476
 ### 20316 good seq, lambda = 0.1, normal p
 
+### 20316 good seq, lambda = 20, normal p
+training set: PCC = 0.7809
+test set: PCC = 0.5961
+
 # mapping sigma - fitness
 
 ![](pictures/sigma-fitness.png)
