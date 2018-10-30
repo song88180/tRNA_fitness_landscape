@@ -46,12 +46,11 @@ test set: 0.5648 <br>
 
 ## F = f1A\*1A+f1T\*1T+f1C\*1C+f1G\*1G+...+f1A2A\*1A\*2A+f1A2A\*1A\*2A  (only consider variance of single mutant)
 ### 20316 good seq, lambda = 0
-training set: PCC = 0.56476
-### 20316 good seq, lambda = 0.1, normal p
+training set: PCC = 0.56476 <br>
 
 ### 20316 good seq, lambda = 20, normal p
-training set: PCC = 0.7809
-test set: PCC = 0.5961
+training set: PCC = 0.7809 <br>
+test set: PCC = 0.5961 <br>
 
 ### 20316 good seq, lambda = 100, normal p
 training set: 0.6765 <br>
