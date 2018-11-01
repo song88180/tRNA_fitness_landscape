@@ -56,6 +56,9 @@ test set: PCC = 0.5961 <br>
 training set: 0.6765 <br>
 test set: 0.5795 <br>
 
+### all: lambda = 10, myf, adjusted p, lr = 0.001, not converge.
+training set: 0.7270 <br>
+test set: 0.6294 <br>
 
 # mapping sigma - fitness
 
