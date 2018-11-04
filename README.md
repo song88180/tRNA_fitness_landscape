@@ -60,6 +60,10 @@ test set: 0.5795 <br>
 training set: 0.7270 <br>
 test set: 0.6294 <br>
 
+### all: lambda = 1, myf, adjusted p, lr = 0.001, almost converge.
+training set: 0.7727 <br>
+test set: 0.6513 <br>
+
 # mapping sigma - fitness
 
 ![](pictures/sigma-fitness.png)
