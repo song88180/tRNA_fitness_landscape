@@ -1,6 +1,13 @@
 # tRNA_fitness_landscape
 Jianzhi Zhang lab project
 
+## Random Forest Prediction Network
+single mutation sequence pair: 66644; <br>
+single mutation linked sequences: 36187; <br>
+all sequences: 49152; <br>
+
+
+
 ## GP RBF variance & lengthscale
 underfit: increase variance, decrease lengthscale
 overfit: decrease variance, increase lengthscale
