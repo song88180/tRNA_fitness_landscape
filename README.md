@@ -51,7 +51,7 @@ test set: 0.5457 <br>
 training set: 0.6424 <br>
 test set: 0.5648 <br>
 
-## F = f1A\*1A+f1T\*1T+f1C\*1C+f1G\*1G+...+f1A2A\*1A\*2A+f1A2A\*1A\*2A  (only consider variance of single mutant)
+## F = f1A\*1A+f1T\*1T+f1C\*1C+f1G\*1G+...+f1A2A\*1A\*2A+f1A2A\*1A\*2A  (only consider variance of single and double mutant, 36299 weight) (72C2*16 = 40896)
 ### 20316 good seq, lambda = 0
 training set: PCC = 0.56476 <br>
 
