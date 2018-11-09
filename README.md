@@ -73,7 +73,7 @@ test set: 0.6513 <br>
 
 ## all: lambda = 1, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y), not converge, iter = 5000  <---
 training set: 0.913810 <br>
-test set: 0.6513 <br>
+test set: 0.672993 <br>
 
 ## all: lambda = 10, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y)
 
