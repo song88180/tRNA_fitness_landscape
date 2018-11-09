@@ -97,6 +97,18 @@ pvalue=array([9.79991677e-19, 6.64097670e-92, 1.92631155e-98]))
 ## comparism
 
 
+### PCC_hist_weight_decay_z6h10
+![](pictures/PCC_hist_weight_decay_z6h10.png)
+
+### PCC_hist_weight_decay_z18h22
+![](pictures/PCC_hist_weight_decay_z18h22.png)
+
+### PCC_hist_dim_z_6
+![](pictures/PCC_hist_dim_z_6.png)
+
+### PCC_hist_dim_z_18
+![](pictures/PCC_hist_dim_z_18.png)
+
 ![](pictures/PCC_hist.png)
 
 ![](pictures/PCC_scatter.png)
