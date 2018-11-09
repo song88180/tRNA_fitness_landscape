@@ -63,15 +63,20 @@ test set: PCC = 0.5961 <br>
 training set: 0.6765 <br>
 test set: 0.5795 <br>
 
-### all: lambda = 10, myf, p\[p.<0] .= 0, lr = 0.001, not converge.
+### all: lambda = 10, myf, p\[p.<0].= 0, lr = 0.001, not converge.
 training set: 0.7270 <br>
 test set: 0.6294 <br>
 
-### all: lambda = 1, myf, p\[p.<0] .= 0, lr = 0.001, almost converge.
+### all: lambda = 1, myf, p\[p.<0].= 0, lr = 0.001, almost converge.
 training set: 0.7727 <br>
 test set: 0.6513 <br>
 
-## all: lambda = 1, myf, p\[p.<0] .= 0, lr = 0.001, y = log(y).
+## all: lambda = 1, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y), not converge, iter = 5000  <---
+training set: 0.913810 <br>
+test set: 0.6513 <br>
+
+## all: lambda = 10, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y)
+
 
 # mapping sigma - fitness
 
