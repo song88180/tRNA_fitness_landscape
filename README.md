@@ -72,16 +72,22 @@ training set: 0.7727 <br>
 test set: 0.6513 <br>
 
 ## all: lambda = 1, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y), not converge, iter = 5000  <---
-training set: 0.913810 <br>
-test set: 0.672993 <br>
+training set PCC: 0.913810 <br>
+training set loss: 0.014256 <br>
+test set PCC: 0.672993 <br>
+test set loss: 0.060375 <br>
 
+## all: lambda = 10, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y) , converged, iter = 
+training set PCC: 0.862910 <br>
+training set loss: 0.022683 <br>
+test set PCC: 0.662988 <br>
+test set loss: 0.058706 <br>
 
-
-## all: lambda = 50, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y)
-training set: 0.799623
-training set loss: 0.031982
-test set: 0.645189
-test set loss: 0.063409
+## all: lambda = 50, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y) , converged, iter = 
+training set PCC: 0.799623 <br>
+training set loss: 0.031982 <br>
+test set PCC: 0.645189 <br>
+test set loss: 0.063409 <br>
 
 
 
