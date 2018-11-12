@@ -77,7 +77,7 @@ training set loss: 0.014256 <br>
 test set PCC: 0.672993 <br>
 test set loss: 0.060375 <br>
 
-### all: lambda = 10, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y) , converged, iter = 
+### all: lambda = 10, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y) , not converged, iter = 
 training set PCC: 0.862910 <br>
 training set loss: 0.022683 <br>
 test set PCC: 0.662988 <br>
