@@ -75,7 +75,14 @@ test set: 0.6513 <br>
 training set: 0.913810 <br>
 test set: 0.672993 <br>
 
-## all: lambda = 10, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y)
+
+
+## all: lambda = 50, myf, p\[(p.<0).$(y.==0)].= 0, lr = 0.001, y = log(y)
+training set: 0.799623
+training set loss: 0.031982
+test set: 0.645189
+test set loss: 0.063409
+
 
 
 # mapping sigma - fitness
