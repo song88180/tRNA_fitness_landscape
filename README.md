@@ -6,6 +6,23 @@ single mutation sequence pair: 66644; <br>
 single mutation linked sequences: 36187; <br>
 all sequences: 49152; <br>
 
+71 out of 100 seqs, depth 2 <br>
+
+1. res = np.average(p)
+   if res < 0.5: res = 0.5
+
+PCC: 0.368723078 
+
+2. p\[p<0.5] = 0.5
+
+PCC: 0.36180046857451637
+
+3. final step p\[p<0.5] = 0.5
+PCC: 0.3497514392161465
+
+
+
+
 
 
 ## GP RBF variance & lengthscale
