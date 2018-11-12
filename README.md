@@ -21,6 +21,14 @@ PCC: 0.361800468
 
 PCC: 0.349751439
 
+to do:
+1. improve the algorithm for finding known seqs
+2. calculate all the sequence, analyze hierarchily
+3. predicted or known
+4. use 0.5 or not
+5. add new feature in single mutation training 
+
+
 
 
 
