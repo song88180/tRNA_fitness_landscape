@@ -10,51 +10,51 @@ all sequences: 49152; <br>
 
 1. res = np.average(p), if res < 0.5: res = 0.5
 
-PCC: 0.368723078 
+    PCC: 0.368723078 
 
 2. p\[p<0.5] = 0.5
 
-PCC: 0.361800468
+    PCC: 0.361800468
 
 3. final step p\[p<0.5] = 0.5
 
-PCC: 0.349751439
+    PCC: 0.349751439
 
 4. only look at test sample whoes fitness > 0.5
 
-PCC: 0.2095164774698553
+    PCC: 0.2095164774698553
 
 5. only look at test sample whoes fitness > 0.5, return False if predict_R give 0.5 result.
 
-PCC: 0.25719251 <br>
-total used sequences: 938
+    PCC: 0.25719251 <br>
+    total used sequences: 938
 <br>
 
 6. check 1 mutation, depth = 1
 
-PCC: 0.91337986
+    PCC: 0.91337986
 
 7. only look at test sample whoes fitness > 0.5, check 1 mutation, depth = 1
 
-PCC: 0.91882380
+    PCC: 0.91882380
 
 8. only look at test sample whoes fitness > 0.5, return False if predict_R give 0.5 result, check 1 mutation, depth = 1
 
-PCC: 0.91952870
+    PCC: 0.91952870
 
 9. only look at test sample whoes fitness > 0.5, return False if predict_R give 0.5 result, check 1 mutation, depth = 2
 
-PCC: 0.71930062
+    PCC: 0.71930062
 
 9. only look at test sample whoes fitness > 0.5, return False if predict_R give 0.5 result, check 1 mutation, depth = 2 and don't take information from depth != 1
 
-PCC: 0.71582471 <br>
-total sequence used: 14951
+    PCC: 0.71582471 <br>
+    total sequence used: 14951
 
 9. only look at test sample whoes fitness > 0.5, return False if predict_R give 0.5 result, check 1 mutation, depth = 2 and don't take information from depth != 1, known_dict restricted to 5000 seqs
 
-PCC: (0.7355613784873891, 4.807400284432054e-07)<br>
-total used sequences: 736
+    PCC: (0.7355613784873891, 4.807400284432054e-07)<br>
+    total used sequences: 736
 
 
 
