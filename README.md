@@ -8,8 +8,7 @@ all sequences: 49152; <br>
 
 71 out of 100 seqs, depth 2 <br>
 
-1. res = np.average(p)
-   if res < 0.5: res = 0.5
+1. res = np.average(p), if res < 0.5: res = 0.5
 
 PCC: 0.368723078 
 
@@ -29,7 +28,7 @@ PCC: 0.2095164774698553
 
 PCC: 0.25719251 <br>
 total used sequences: 938
-
+<br>
 
 6. check 1 mutation, depth = 1
 
