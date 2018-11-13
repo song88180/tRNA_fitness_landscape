@@ -65,7 +65,7 @@ to do:
 4. use 0.5 or not
 5. add new feature in single mutation training 
 
-
+6. reserved data for testing rf single mutation prediction 
 
 
 
