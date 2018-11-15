@@ -500,6 +500,9 @@ Using the same VAE training set:
 
 ## Sample Visualization
 
+All MSE = 0.02195255896454998 <br>
+fitness > 0.5 MSE = 0.0451942273602329 <br>
+
 ![](pictures/ExpData_good_distribution_each.png)
 Distribution of high fitness (>0.5) sequences
 ![](pictures/ExpData_good_distribution_stacked.png)
