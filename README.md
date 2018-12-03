@@ -511,6 +511,14 @@ Distribution of high fitness (>0.5) sequences (stacked histogram)
 ![](pictures/ExpData_distribution_stacked.png)
 Distribution of all sample (stacked histogram)
 
+all = 49153 <br>
+    all_good = 21316 <br>
+        training_good = 20316 <br>
+        test_good = 1000 <br>
+    all_bad = 27837 <br>
+    
+
+
 fitness = 0.5 : 27837 <br>
 fitness > 0.5 : 21316 <br>
 fitness > 0.6 : 13649 <br>
@@ -518,6 +526,13 @@ fitness > 0.7 : 7886 <br>
 fitness > 0.8 : 4492 <br>
 fitness > 0.9 : 2365 <br>
 fitness > 1.0 : 745 <br>
+
+
+| mutation num   | 1      | 2      | 3      | 4      | 5      | 6      | 7      | 8     | 9     |10   | 11 |
+|----------------|--------|--------|--------|--------|--------|--------|--------|-------|-------|-----|----|
+| good           | 155    | 9268   | 7556   | 2489   | 1126   | 479    | 169    | 57    | 15    | 1   | 0  |
+| total          | 155    | 9654   | 16725  | 11702  | 6497   | 2920   | 1062   | 344   | 72    | 10  | 1  |
+| good ratio     | 1      | 0.9600 | 0.4518 | 0.2127 | 0.1733 | 0.1640 | 0.1591 | 0.1657| 0.2083|0.1000| 0 |
 
 <br><br>
 # Simulated Data
